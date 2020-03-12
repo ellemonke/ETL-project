@@ -14,17 +14,17 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/primary")
-def primary():
-    return render_template("primary.html")
+# @app.route("/primary")
+# def primary():
+#     return render_template("primary.html")
 
-@app.route("/secondary")
-def secondary():
-    return render_template("secondary.html")
+# @app.route("/secondary")
+# def secondary():
+#     return render_template("secondary.html")
 
-@app.route("/predictor", methods=['GET', 'POST'])
-def predictor():
-    return render_template("predictor.html")
+# @app.route("/predictor", methods=['GET', 'POST'])
+# def predictor():
+#     return render_template("predictor.html")
 
 
 # Submit form to calculate model score and HDI
